@@ -8,7 +8,7 @@ mongoose = require('mongoose'),
   bodyParser = require('body-parser');
   
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://buvb89k3u6yr7w5-mongodb.services.clever-cloud.com:27017/buvb89k3u6yr7w5'); 
+mongoose.connect('mongodb://buvb89k3u6yr7w5-mongodb.services.clever-cloud.com:27017/mahdb'); 
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
